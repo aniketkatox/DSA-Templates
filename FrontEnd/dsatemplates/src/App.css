@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.components {
+  background-color:#2f3542; /* Replace #333 with your desired dark color */
+  min-height: 100vh;
+  overflow: auto;
+  display: block;
+}

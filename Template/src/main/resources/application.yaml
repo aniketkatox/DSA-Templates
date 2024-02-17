@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/dsa
+        username: root
+        password: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        database-platform: org.hibernate.dialect.MySQLDialect
+        show-sql: true
+#    security:
+#        oauth2:
+#            client:
+#                registration:
+#                    google:
+#                        client-id: 708830650614-8i3d7tfjnc2oesr163lcd10orcpb4uh2.apps.googleusercontent.com
+#                        client-secret: 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

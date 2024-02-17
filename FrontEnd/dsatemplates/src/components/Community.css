@@ -1,0 +1,43 @@
+.cardContainer {
+  margin-top: 140px;
+  margin-bottom: 225px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ced6e0;
+  text-align: center;
+  cursor: pointer;
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  margin-right: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-image {
+  height: 160px;
+  background-color: #ced6e0;
+  transition: background-color 0.2s ease; /* Add transition property with a small delay */
+}
+.card-pic {
+  margin-top: 40px;
+  max-width: 90px;
+  height: 85px;
+}
+
+.card-title-text {
+  padding: 5px;
+  height: 31px;
+  text-decoration: none;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: black;
+}

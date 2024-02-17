@@ -1,0 +1,48 @@
+.subTopic-container {
+  display: flex;
+}
+
+.subTopic-card-container {
+  margin-top: 80px;
+  flex: 1 1 20%;
+  margin-right: 20px;
+}
+
+.question-container {
+  flex: 1 1 80%;
+  margin-top: 80px;
+}
+
+.subTopic-card {
+  margin-top: 50px;
+  background-color: #ced6e0;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 50px;
+  width: 190px; /* Increase the width by 10px */ 
+}
+
+
+.subTopic-card h1 {
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  line-height: 50px;
+}
+
+.subTopic-card.active{
+  background-color: black;
+  color: white;
+}
+.subTopic-card:hover {
+  background-color: #b5bcc7;
+}
+
+.subTopic-card a {
+  text-decoration: none;
+}
+
+.subTopic-card:hover h1 {
+  color: white;
+}

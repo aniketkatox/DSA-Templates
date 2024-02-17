@@ -1,0 +1,11 @@
+.footerContainer{
+    position: relative;
+    line-height: 50px;
+    font-size: large; 
+    width: 100%;
+    z-index: 1;
+}
+
+.footerContainer p{
+    text-align: center;
+}
